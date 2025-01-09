@@ -5,6 +5,14 @@ function App() {
   const [counter, setCounter] = useState(0);
   // let counter = 0;
 
+  //! interview question
+  // const addValue = () => {
+  //   setCounter(prevCounter => prevCounter + 1);
+  //   setCounter(prevCounter => prevCounter + 1);
+  //   setCounter(prevCounter => prevCounter + 1);
+  //   setCounter(prevCounter => prevCounter + 1);
+  // }; //? increment counter by 4
+
   const addValue = () => {
     if (counter >= 20) {
       return setCounter(20);
